@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  background-image: linear-gradient(
+    to right,
+    #2e59d1,
+    #df332d,
+    #1adcac,
+    #471b61,
+    #1849e9
+  );
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainbody {
   display: flex;
   flex-direction: column;
+  width: 270px;
+  height: max-content;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.image {
+  width: 230px;
+  height: 180px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  padding: 10px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: whitesmoke;
+  gap: 24px;
+}
+
+.pricetax {
+  font-size: 12px;
+  color: #ababab;
+  margin-bottom: 10px;
+}
+.price {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.price-tag {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 0px;
+  border-top: 0.5px solid #ababab;
+  border-bottom: 1px solid #ababab;
+}
+.about {
+  height: 200px;
+  margin-right: 12px;
+}
+.bodytype {
+  color: crimson;
+}
+
+.home {
+  text-decoration: none;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.home1 {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-container {
+  background-color: white;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.5s;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+}
+
+.user-detail {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.user-container:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 38px 11px rgba(0, 0, 0, 0.5);
+}
+
+.user-container:hover .user-name {
+  color: crimson;
+}
+
+.topbar {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.user-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrap-user-list{
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.Add-user-list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.text-field{
+  width: 250px;
+  color: white;
+  background-color: rgba(245, 245, 245, 0.979);
+}
+
+.add-button{
+  display: flex;
+  justify-content: space-around;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
