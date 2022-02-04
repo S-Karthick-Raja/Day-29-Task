@@ -28,6 +28,7 @@ export function Topbar() {
                 <hr />
                 <Link to="/create-user" className="home1">CREATE USER</Link>
                 <hr />
+                <Link to="/profile" className="home1">PROFILE</Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

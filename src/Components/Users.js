@@ -1,5 +1,5 @@
 
-export function User({ name, avatar, age, email, phone, profession, editButton, deleteButton }) {
+export function User({ name, avatar, age, email, phone, profession, editButton, deleteButton , profileButton}) {
 
 
     return (
@@ -13,8 +13,8 @@ export function User({ name, avatar, age, email, phone, profession, editButton, 
                     <p className="user-detail"><span style={{ color: "crimson", fontWeight: "bold" }}>Phone:</span> {phone}</p>
                     <p className="user-detail"><span style={{ color: "crimson", fontWeight: "bold" }}>profession:</span> {profession}</p>
                     <div>
-                        {editButton} {deleteButton}
-                    </div>
+                        {profileButton} {editButton} {deleteButton} 
+                    </div>               
                 </div>
             </div>
         </section>

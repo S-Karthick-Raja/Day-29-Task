@@ -44,7 +44,7 @@ export default function Fetchusers() {
                             aria-label="edit-movie"
                             onClick={() => history.push("/edit-user/" + id)}
                         >
-                            Edit <EditIcon />
+                            Edit User <EditIcon />
                         </Button>
                     }
                     deleteButton={
@@ -53,10 +53,9 @@ export default function Fetchusers() {
                             color="error"
                             aria-label="delete-user"
                         >
-                            Delete <DeleteIcon />
+                            Delete User <DeleteIcon />
                         </Button>
-                    }
-
+                    }               
                 />
             ))}
         </div>
