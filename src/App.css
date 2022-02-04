@@ -1,12 +1,5 @@
 body {
-  background-image: linear-gradient(
-    to right,
-    #2e59d1,
-    #df332d,
-    #1adcac,
-    #471b61,
-    #1849e9
-  );
+  background-image: url("https://images8.alphacoders.com/756/756955.jpg");
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
@@ -128,12 +121,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.wrap-user-list{
+.wrap-user-list {
   padding: 20px;
   padding-top: 0px;
 }
 
-.Add-user-list{
+.Add-user-list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -143,15 +136,23 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-.text-field{
+.text-field {
   width: 250px;
   color: white;
   background-color: rgba(245, 245, 245, 0.979);
 }
 
-.add-button{
+.add-button {
   display: flex;
   justify-content: space-around;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.home-page {
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-start;
+  margin-left: 20px;
+  color: rgba(245, 245, 245, 0.795);
 }
